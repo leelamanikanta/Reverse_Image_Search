@@ -1,6 +1,6 @@
 # Reverse Image Search using deep learning models.
 
 
-Have you ever wondered how google image search works ? or How amazon is able to retrive products similar to the image that we upload in the app/site.We will use one simple method to acomplish the task.
+Have you ever wondered how google image search works or How amazon can retrieve products similar to the image that we upload in the app/site? To achieve this task we will be using one simple method.
 
-We will pick a pre-trained deep learnig model, remove the top layers and extract the convolutional features for the images in our dataset. Then we will use these feature vectors to find similar images by using sklearn's nearest neighbors algorithm
+We are going to pick a pre-trained deep learning model, remove the top layers, and extract the convolutional features for the images in our dataset. Then we will use these feature vectors to find similar images by using sklearn's nearest neighbor algorithm.
